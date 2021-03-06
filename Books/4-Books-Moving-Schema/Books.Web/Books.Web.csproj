@@ -201,6 +201,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnet-Books.Web.mdf" />
+    <Content Include="App_Data\aspnet-Books.Web_log.ldf">
+      <DependentUpon>aspnet-Books.Web.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data_Backup\aspnet-Books.Web.mdf" />
+    <Content Include="App_Data_Backup\aspnet-Books.Web_log.ldf">
+      <DependentUpon>aspnet-Books.Web.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -262,9 +270,7 @@
     <Content Include="Views\Books\Edit.cshtml" />
     <Content Include="Views\Books\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
