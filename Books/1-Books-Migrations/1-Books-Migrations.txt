@@ -1,4 +1,4 @@
-Blank Solution [Books] + ASP.NET MVC (.NET Framework 4.8) Individual User Accounts [Books.Web] + Class Library (.NET Framework 4.8) [Books.Entities]
+Blank Solution [Books] + ASP.NET MVC (.NET Framework 4.8) Individual User Accounts [Books.Web] (Entity Framework 6.4.4) + Class Library (.NET Framework 4.8) [Books.Entities]
 
 
 [
