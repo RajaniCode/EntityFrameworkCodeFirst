@@ -63,7 +63,7 @@ namespace Books.Web.DataContexts
 // [
 // To re-scaffold the entire migration, use the -Force parameter.
 // PM> Add-Migration -ConfigurationTypeName Books.Web.DataContexts.IdentityMigrations.Configuration "DefaultSchema" -Force
-//]
+// ]
 
 // 8
 // Books.Web\DataContexts\IdentityMigrations\202103060646313_DefaultSchema.cs
